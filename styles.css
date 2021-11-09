@@ -1,0 +1,178 @@
+/*BASIC SETUP*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', 'Ariel';
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    width: 1600px;
+    margin: auto;
+}
+
+.box{padding: 1%;}
+
+h2{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+cite{
+    float: left;
+    font-style: normal;
+    margin-top: 40px;
+    display: inline;
+    border: 1px solid rgb(136, 90, 4);
+    padding: 6px;
+}
+
+cite img{
+    max-width: 50px;
+    max-height: 35px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.book{
+    margin-top: 40px;
+    padding-top: 0px;
+    float: right;
+}
+
+.book:link,
+.book:visited{
+    color: white;
+    text-decoration: none;
+    padding: 13px 60px 13px 60px;
+    border: 1px solid white;
+    transition: border 0.2s;
+}
+
+.book:active,
+.book:hover{
+    border: 1px solid rgb(136, 90, 4);
+}
+
+.main-nav{
+    float: right;
+    padding-right: 415px;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    padding-bottom: 7px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:active, 
+.main-nav li a:hover{
+    border-bottom: 2px solid rgb(136, 90, 4);
+}
+
+.bottom-head{
+    margin-top: 50px;
+    display: inline-block;
+    height: 77vh;
+}
+
+.pic1{
+    height: 550px;
+    width: 990px;
+    right: 6%;
+}
+
+.pic2{
+    width: 450px;
+    height: 260px;
+    display: inline;
+    position: relative;
+    right: 12%;
+    top: 73px;
+}
+
+hr{
+    margin-top: 0px;
+    border: none;
+    border-top: 1px solid rgba(133, 110, 66, 0.507);
+    width: 90%;
+    margin: 0px auto;
+}
+
+.pic3{
+    width: 290px;
+    height: 175px;
+    float: right;
+    position: relative;
+    bottom: 270px;
+    right: 12%;
+}
+
+.head-text{
+    font-size: 400%;
+    float: right;
+    position: relative;
+    bottom: 470px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.lang-btn{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 78px;
+    float: left;
+}
+
+.tw{
+    margin-right: 20px;
+    border: 1px solid rgb(80, 80, 80);
+    padding: 15px;
+}
+
+.in{
+    border: 1px solid rgb(80, 80, 80) ;
+    padding: 15px 20px;
+}
+
+.bottom-text ul{
+    list-style: none;
+    float: right;
+    padding-right: 450px;
+    margin-top: 30px;
+}
+
+.bottom-text ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.arrow{
+    float: right;
+    font-size: 200px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.icon{
+    color: white;
+    display: inline;
+}
