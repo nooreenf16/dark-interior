@@ -1,62 +1,66 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel= "stylesheet" type="text/css" href="/killerproject/vendors/css/7.1 Grid.css">
-    <link rel= "stylesheet" type="text/css" href="/killerproject/vendors/css/normalize.css">
-    <link rel= "stylesheet" type="text/css" href="/killerproject/vendors/css/ionicons.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Dark Interior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Javascipt Games</title>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="row">
-                <cite><img src="logo.png" class="logo" alt="logo">INTER</cite>
-                
-                <h2><a href="#" class="book">BOOK</a></h2>
-                <ul class="main-nav">
-                    <li><a href="#">WHY US?</a></li>
-                    <li><a href="#">PROCESS</a></li>
-                    <li><a href="#">STYLE</a></li>
-                    <li><a href="#">WORK</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="bottom-head">
-            <img src="pic2.jpg" class="pic1">
-            <img src="pic1.jpg" class="pic2">
-            <img src="pic3.jpg" class="pic3">
-            <div class="head-text">
-                We Don't <br>Renovate Spaces,<br>We Transform<br>Them.
-            </div>
+    <div class="container-1">
+        <h1>Challenge:1 Age in Days</h1>
+        <div class="flexbox-container-1">
+            <div><button class="btn btn-primary" onclick="ageInDays()">Click Me</button></div>
+            <div><button class="btn btn-danger" onclick="resetAnswer()">Reset</button></div>
         </div>
-        <div class="hr"><hr /></div>
-    </header>
+        <div class="flexbox-container-1" id="flexbox-result">
+            
+        </div>
+    </div>
 
-    <footer>
-        <div class="lang-btn">
-            <p class="tw">TW</p>
-            <p class="in">IN</p>
+    <div class="container-1">
+        <h1>Challenge:2 Cat Generator</h1>
+        <div class="flexbox-container-1">
+            <div><button class="btn btn-success" onclick="generateCats()">Generate Cats</button> </div>
+            <div><button class="btn btn-danger" onclick="resetImgs()">Reset</button> </div>
         </div>
-        
-        <div class="bottom-text">
-            <ul>
-                <li>We think over every detail<br>of the Interior</li>
-                <li>We take into account and<br>embody your desires</li>
-            </ul>
+        <div class="flexbox-container-2" id="cats">
+           
         </div>
+    </div>
 
-        <div class="arrow">
-            <i class="ion-ios-infinite-outline icon"></i>
+    <div class="container-1">
+        <h1>Challenge:3 Rock, Paper, Scissor</h1>
+        <div class="flexbox-container-1">
+            <div><img src="rock.jpg" id="rock" class="imgs" onclick="rpsGame(this)"></div>
+            <div><img src="paper.jpg" id="paper" class="imgs" onclick="rpsGame(this)"></div>
+            <div><img src="scissors.jpg" id="scissors" class="imgs" onclick="rpsGame(this)"></div>
         </div>
-    </footer>
+    </div>
+    <div class="flexbox-container-1" id="result"></div>
 
+    <div class="container-1">
+        <h1>Challenge:4 Change Button Colours</h1>
+        <div class="flexbox-container-1">
+            <form action="">
+                <select name="backdrop" onchange="changeColour(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+
+                </select>
+            </form>
+            
+            <button class="btn btn-danger buttons" >Youtube</button>
+            <button class="btn btn-primary buttons">Facebook</button>
+            <button class="btn btn-success buttons" >Google</button>
+
+        </div>
+    </div>
+
+    <script src="demo.js"></script>
 </body>
 </html>
-
