@@ -10,3 +10,4 @@ This website has 3 games developed using js.
 - Generate cat images
 - Rock, Paper, Scissors
 
+3. BlackJack Game against computer
